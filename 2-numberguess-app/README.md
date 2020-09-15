@@ -4,7 +4,7 @@ Simple game, where a number is selected. The computer than guesses numbers withi
 ## Concepts
 - Folder Structure
 - Adding Images
-- Adding Fonts
+- [Adding Fonts](#adding-fonts)
 - Adding Icons
 - Styling
     - Global Colors
