@@ -7,7 +7,7 @@ const TemplateComponent = props => {
             <Text>Works</Text>
         </View>
     )
-}
+};
 
 const styles = StyleSheet.create({
 

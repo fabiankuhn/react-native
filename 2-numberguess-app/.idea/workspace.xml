@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a985496-1f68-4281-a4a7-a7d72a2bf43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../real-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/.idea/real-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/_docs/TemplateComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/assets/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/assets/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/components/Card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/components/Input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/constants/colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/how-to-use.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-app/screen/StartGameScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/assets/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/assets/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/components/GoalInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/components/GoalItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/how-to-use.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-app/package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hXOkKfVGO4YrXRJ3GKX0dCvWBR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a985496-1f68-4281-a4a7-a7d72a2bf43d" name="Default Changelist" comment="" />
+      <created>1600093577806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600093577806</updated>
+      <workItem from="1600093585517" duration="1548000" />
+      <workItem from="1600154116685" duration="3753000" />
+      <workItem from="1600158139693" duration="838000" />
+      <workItem from="1600160589212" duration="11698000" />
+      <workItem from="1600179255286" duration="949000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="540" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600157760112">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="352" y="540" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1600157760112" />
+    <state x="261" y="540" width="1469" height="722" key="SettingsEditor" timestamp="1600166049861">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="261" y="540" width="1469" height="722" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1600166049861" />
+    <state x="429" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600179791478">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="429" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417@0.23.2560.1417" timestamp="1600179791478" />
+    <state x="501" y="603" width="598" height="548" key="find.popup" timestamp="1600179105481">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="501" y="603" width="598" height="548" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600179105481" />
+    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1600179774268">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600179774268" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/BodyText.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
