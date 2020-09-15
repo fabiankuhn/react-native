@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a985496-1f68-4281-a4a7-a7d72a2bf43d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/GameOverScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/GameOverScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screen/GameScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/GameScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/StartGameScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/StartGameScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +66,7 @@
       <workItem from="1600158139693" duration="838000" />
       <workItem from="1600160589212" duration="11698000" />
       <workItem from="1600179255286" duration="6335000" />
-      <workItem from="1600185969408" duration="411000" />
+      <workItem from="1600185969408" duration="2061000" />
     </task>
     <servers />
   </component>
@@ -92,14 +86,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="429" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417@0.23.2560.1417" timestamp="1600179791478" />
-    <state x="501" y="603" width="598" height="548" key="find.popup" timestamp="1600181116001">
+    <state x="501" y="603" width="598" height="548" key="find.popup" timestamp="1600187471868">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="501" y="603" width="598" height="548" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600181116001" />
-    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1600180750165">
+    <state x="501" y="603" width="598" height="548" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600187471868" />
+    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1600187282644">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600180750165" />
+    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600187282644" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

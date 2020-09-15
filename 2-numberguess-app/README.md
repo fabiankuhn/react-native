@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
 ## Lists
 
 #### ScrollView
-ScrollView Output
+The Scrollview should hold a limited amount of items. For example 100 text items. If the List contains heavy images etc. consider FlatList.
 ```jsx
 <View style={styles.listContainer}>
   <ScrollView contentContainerStyle={styles.list}>
@@ -181,4 +181,45 @@ const styles = StyleSheet.create({
 ```
 
 #### Flatlist
+Render a Flatlist. Set Styles with `contentContainerStyle`. The first argument in the.bind is this, then the arguments passed. The last received item in FlatList is the item, which contains an index and the value.
+```jsx
+<FlatList
+    data={pastGuesses}
+    renderItem={renderListItem.bind(this, pastGuesses.length)}
+    keyExtractor={(item => item)}
+    contentContainerStyle={styles.list}>
+</FlatList>;
 
+const renderListItem = (listLength, itemData) => (
+    <View style={styles.listItem}>
+        <BodyText>#{listLength - itemData.index}:</BodyText>
+        <BodyText>{itemData.item}</BodyText>
+    </View>
+);
+```
+
+Styling of FlatList
+```jsx
+const styles = StyleSheet.create({
+    listContainer: {
+        flex: 1, // Needed for Android
+        width: '60%',
+        marginVertical: 20
+    },
+    list: {
+        flexGrow: 1, // Needed for Bottom Up View
+        justifyContent: 'flex-end'
+    },
+    listItem: {
+        borderColor: '#ccc',
+        marginVertical: 10,
+        padding: 15,
+        backgroundColor: 'white',
+        borderWidth: 1,
+        borderRadius: 5,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        width: '100%'
+    }
+});
+```
