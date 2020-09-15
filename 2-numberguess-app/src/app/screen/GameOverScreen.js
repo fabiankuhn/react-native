@@ -16,7 +16,7 @@ const GameOverScreen = props => {
           style={styles.image}
 
           // Link by File
-          source={require('./../../assets/success.png')}
+          source={require('../assets/images/success.png')}
 
           // Lik by URL (always needs Width and Height)
           // source={{uri: 'https://cdn.pixabay.com/photo/2016/05/05/23/52/mountain-summit-1375015_960_720.jpg'}}

@@ -1,16 +1,16 @@
 import React, {useState} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Header from './src/components/Header'
-import StartGameScreen from './src/screen/StartGameScreen';
-import GameScreen from "./src/screen/GameScreen";
-import GameOverScreen from "./src/screen/GameOverScreen";
+import Header from './src/app/components/Header'
+import StartGameScreen from './src/app/screen/StartGameScreen';
+import GameScreen from "./src/app/screen/GameScreen";
+import GameOverScreen from "./src/app/screen/GameOverScreen";
 import * as Font from 'expo-font';
 import {AppLoading} from 'expo';
 
 const fetchFonts = () => {
   return Font.loadAsync({
-    'open-sans': require('./assets/fonts/OpenSans-Regular.ttf'),
-    'open-sans-bold': require('./assets/fonts/OpenSans-Bold.ttf'),
+    'open-sans': require('./src/assets/fonts/OpenSans-Regular.ttf'),
+    'open-sans-bold': require('./src/assets/fonts/OpenSans-Bold.ttf'),
   });
 };
 

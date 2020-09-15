@@ -2,7 +2,7 @@
 Simple game, where a number is selected. The computer than guesses numbers within a range and tips can be given (higher or lower number).
 
 ## Concepts
-- Folder Structure
+- [Folder Structure](#folder-structure)
 - [Adding Fonts](#adding-fonts)
 - [Adding Images](#adding-images)
 - [Adding Icons](#adding-icons)
@@ -10,13 +10,44 @@ Simple game, where a number is selected. The computer than guesses numbers withi
 - [Styling Scopes](#styling-scopes)
 - [Lists](#lists)
 
+## Folder Structure
+```
+├── app
+│   ├── components
+│   │   ├── BodyText.js
+│   │   ├── Card.js
+│   │   ├── Header.js
+│   │   ├── Input.js
+│   │   ├── MainButton.js
+│   │   ├── NumberContainer.js
+│   │   └── TitleText.js
+│   ├── constants
+│   │   ├── colors.js
+│   │   ├── default-styles.js
+│   │   └── fonts.js
+│   └── screen
+│       ├── GameOverScreen.js
+│       ├── GameScreen.js
+│       └── StartGameScreen.js
+└── assets
+    ├── fonts
+    │   ├── OpenSans-Bold.ttf
+    │   └── OpenSans-Regular.ttf
+    └── images
+        ├── icon.png
+        ├── splash.png
+        └── success.png
+```
+Set SRC as Source Folder and assets as Resources
+![Project Structure](_docs/project_structure.png)
+
 ## Adding Fonts
 Outside of the App Class
 ```jsx
 const fetchFonts = () => {
   return Font.loadAsync({
-    'open-sans': require('./assets/fonts/OpenSans-Regular.ttf'),
-    'open-sans-bold': require('./assets/fonts/OpenSans-Bold.ttf'),
+    'open-sans': require('./src/assets/fonts/OpenSans-Regular.ttf'),
+    'open-sans-bold': require('./src/assets/fonts/OpenSans-Bold.ttf'),
   });
 };
 ```
@@ -42,7 +73,7 @@ if(!dataLoaded){
   fadeDuration={4000} // Fade for source images (web url)
   // Link by File
   source={require('./../../assets/success.png')}
-  source={{uri: 'https://cdn.pixabay.com/photo/2016/05/05/23/52/mountain-summit-1375015_960_720.jpg'}}
+  // source={{uri: 'https://cdn.pixabay.com/photo/2016/05/05/23/52/mountain-summit-1375015_960_720.jpg'}}
   resizeMode="cover" // options for stretch
 />
 ```

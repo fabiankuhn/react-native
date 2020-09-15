@@ -1,13 +1,11 @@
-import React, {useState, useRef, useEffect} from 'react';
-import {View, Text, StyleSheet, Button, Alert, ScrollView, FlatList} from 'react-native';
+import React, {useEffect, useRef, useState} from 'react';
+import {Alert, FlatList, StyleSheet, Text, View} from 'react-native';
 import NumberContainer from "../components/NumberContainer";
 import Card from "../components/Card";
-import DefaultStyles from "./../constants/default-styles"
+import DefaultStyles from "../constants/default-styles"
 import MainButton from "../components/MainButton";
-import { Ionicons } from '@expo/vector-icons';
+import {Ionicons} from '@expo/vector-icons';
 import BodyText from "../components/BodyText";
-import styled from 'styled-components';
-
 
 
 const generateRandomBetween = (min, max, exclude) => {
