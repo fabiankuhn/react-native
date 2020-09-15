@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a985496-1f68-4281-a4a7-a7d72a2bf43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/GameOverScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/GameOverScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/GameScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/GameScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/StartGameScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/StartGameScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +38,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -63,7 +71,8 @@
       <workItem from="1600154116685" duration="3753000" />
       <workItem from="1600158139693" duration="838000" />
       <workItem from="1600160589212" duration="11698000" />
-      <workItem from="1600179255286" duration="1371000" />
+      <workItem from="1600179255286" duration="6335000" />
+      <workItem from="1600185969408" duration="411000" />
     </task>
     <servers />
   </component>
@@ -75,29 +84,28 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="352" y="540" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1600157760112" />
-    <state x="261" y="540" width="1469" height="722" key="SettingsEditor" timestamp="1600166049861">
+    <state x="261" y="540" width="1469" height="722" key="SettingsEditor" timestamp="1600185168162">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="261" y="540" width="1469" height="722" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1600166049861" />
+    <state x="261" y="540" width="1469" height="722" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1600185168162" />
     <state x="429" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600179791478">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="429" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417@0.23.2560.1417" timestamp="1600179791478" />
-    <state x="501" y="603" width="598" height="548" key="find.popup" timestamp="1600179105481">
+    <state x="501" y="603" width="598" height="548" key="find.popup" timestamp="1600181116001">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="501" y="603" width="598" height="548" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600179105481" />
-    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1600179774268">
+    <state x="501" y="603" width="598" height="548" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600181116001" />
+    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1600180750165">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600179774268" />
+    <state x="305" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600180750165" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/BodyText.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

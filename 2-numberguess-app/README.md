@@ -5,6 +5,7 @@ Simple game, where a number is selected. The computer than guesses numbers withi
 - Folder Structure
 - Adding Images
 - Adding Fonts
+- Adding Icons
 - Styling
     - Global Colors
     - Scoped Styling
@@ -48,6 +49,10 @@ if(!dataLoaded){
   resizeMode="cover" // options for stretch
 />
 ```
+
+## Adding Icons
+Text
+
     
 ## React Hooks
 useState: Destructured const for value and setter. The UI gets re-rendered when the state changes.
