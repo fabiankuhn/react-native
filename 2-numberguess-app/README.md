@@ -3,15 +3,12 @@ Simple game, where a number is selected. The computer than guesses numbers withi
 
 ## Concepts
 - Folder Structure
-- Adding Images
 - [Adding Fonts](#adding-fonts)
-- Adding Icons
-- Styling
-    - Global Colors
-    - Scoped Styling
-    - Global Styling
-    - Component Interaction
-- React Hooks
+- [Adding Images](#adding-images)
+- [Adding Icons](#adding-icons)
+- [React Hooks](#react-hooks)
+- [Styling Scopes](#styling-scopes)
+- [Lists](#lists)
 
 ## Adding Fonts
 Outside of the App Class
@@ -51,7 +48,10 @@ if(!dataLoaded){
 ```
 
 ## Adding Icons
-Text
+Search for Icons here: [https://icons.expo.fyi/](https://icons.expo.fyi/)
+```jsx
+<Ionicons name="md-remove" size={24} color="white" />
+```
 
     
 ## React Hooks
@@ -135,4 +135,50 @@ const styles = StyleSheet.create({
     }
 });
 ```
+
+## Lists
+
+#### ScrollView
+ScrollView Output
+```jsx
+<View style={styles.listContainer}>
+  <ScrollView contentContainerStyle={styles.list}>
+      {pastGuesses.map((guess, index) => (        
+        <View key={value} style={styles.listItem}>
+            <BodyText>#{pastGuesses.length - index}:</BodyText>
+            <BodyText>{guess}</BodyText>
+        </View>
+      ))}
+  </ScrollView>
+</View>
+```
+
+Styling of ScrollView
+```jsx 
+const styles = StyleSheet.create({
+    listContainer: {
+        flex: 1, // Needed for Android
+        width: '80%',
+        marginVertical: 20
+    },
+    list: {
+        flexGrow: 1, // Needed for Bottom Up View
+        alignItems: 'center',
+        justifyContent: 'flex-end'
+    },
+    listItem: {
+        borderColor: '#ccc',
+        margin: 10,
+        padding: 15,
+        backgroundColor: 'white',
+        borderWidth: 1,
+        borderRadius: 5,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        width: '60%'
+    }
+});
+```
+
+#### Flatlist
 
