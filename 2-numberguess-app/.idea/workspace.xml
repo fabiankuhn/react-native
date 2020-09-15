@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a985496-1f68-4281-a4a7-a7d72a2bf43d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../real-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/.idea/real-app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/.watchmanconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/_docs/TemplateComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/assets/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/assets/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/components/Card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/components/Input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/constants/colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/how-to-use.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-app/screen/StartGameScreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/.watchmanconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/assets/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/assets/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/components/GoalInput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/components/GoalItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/how-to-use.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +63,7 @@
       <workItem from="1600154116685" duration="3753000" />
       <workItem from="1600158139693" duration="838000" />
       <workItem from="1600160589212" duration="11698000" />
-      <workItem from="1600179255286" duration="949000" />
+      <workItem from="1600179255286" duration="1371000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,9 @@
 Simple game, where a number is selected. The computer than guesses numbers within a range and tips can be given (higher or lower number).
 
 ## Concepts
+- Folder Structure
+- Adding Images
+- Adding Fonts
 - Styling
     - Global Colors
     - Scoped Styling
@@ -9,6 +12,42 @@ Simple game, where a number is selected. The computer than guesses numbers withi
     - Component Interaction
 - React Hooks
 
+## Adding Fonts
+Outside of the App Class
+```jsx
+const fetchFonts = () => {
+  return Font.loadAsync({
+    'open-sans': require('./assets/fonts/OpenSans-Regular.ttf'),
+    'open-sans-bold': require('./assets/fonts/OpenSans-Bold.ttf'),
+  });
+};
+```
+
+Inside the App Class
+```jsx
+// State to store the boolean loaded
+const [dataLoaded, setDataLoaded] = useState(false);
+
+// Check for Loaded fonts
+if(!dataLoaded){
+  return <AppLoading
+    startAsync={fetchFonts}
+    onFinish={() => setDataLoaded(true)}
+    onError={error => console.log(error)}
+  />;
+}
+```
+
+## Adding Images
+```jsx
+<Image
+  fadeDuration={4000} // Fade for source images (web url)
+  // Link by File
+  source={require('./../../assets/success.png')}
+  source={{uri: 'https://cdn.pixabay.com/photo/2016/05/05/23/52/mountain-summit-1375015_960_720.jpg'}}
+  resizeMode="cover" // options for stretch
+/>
+```
     
 ## React Hooks
 useState: Destructured const for value and setter. The UI gets re-rendered when the state changes.
@@ -32,7 +71,7 @@ useEffect(() => {
 }, [currentGuess, userChoice, onGameOver]);
 ```
     
-## Styling
+## Styling Scopes
 Method 1: Component
 - Preferred Way to reuise Styling
 - `props.children` contains the Input of Parent
