@@ -7,7 +7,9 @@ This App shows a Todo-List, in which items can be added and deleted.
 - Binding
 
 ## Flatlist
-Add Items to the List
+The Flatlist is a better option, because only the visible part of the list gets generated. Therefor it is more suitable than the ScrollList.
+
+#### Add Items to the List
 - Math Random is a placeholder for unique ID
 - Spread Operator to add Goal
 ```jsx
@@ -17,7 +19,7 @@ setCourseGoals(currentGoals => [
 ]);
 ```
 
-Display FlatList
+#### Display FlatList
 - Forward item id to GoalItem to know, which item needs to be delete
 - keyExtractor specifies id of Item
 ```jsx 
@@ -32,4 +34,26 @@ Display FlatList
     />
   )}
 />
+```
+
+## ScrollList
+The Scrollist (just like the Flatlist) needs a unique key assigned.
+
+```jsx
+<ScrollView>
+    {pastGuesses.map(guess => (
+      <View key={guess}><Text>{guess}</Text></View>
+    ))}
+</ScrollView>
+```
+
+## Modal
+The Modal can be used with visible and slide animation
+
+```jsx
+<Modal visible={props.visible} animationType="slide">
+  <View style={styles.inputContainer}>
+    ...
+  </View>
+</Modal>
 ```
